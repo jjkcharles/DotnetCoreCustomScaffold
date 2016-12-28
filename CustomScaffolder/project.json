@@ -1,0 +1,21 @@
+﻿{
+  "version": "1.1.0-*",
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.0.1",
+      "type": "platform"
+    },
+    "Microsoft.VisualStudio.Web.CodeGeneration": "1.0.0-preview2-final",
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "1.0.0-preview2-final"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}
